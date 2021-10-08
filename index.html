@@ -11,74 +11,73 @@
 
 <body class="">
     <div class="bg-mainBg-default h-96"> </div>
-    <div class="bg-mainImgBg">
+    <!-- <div class="bg-mainImgBg"> -->
+    <div class="">
         <nav
-            class="top-0 lg:text-white absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+            class="top-0 lg:text-white absolute z-50 w-full flex flex-wrap items-center justify-between  navbar-expand-lg">
             <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
                 <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <button
-                        class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                        class="mt-4 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                         type="button" onclick="toggleNavbar('example-collapse-navbar')">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="white">
                             <path fill-rule="evenodd"
                                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                                 clip-rule="evenodd" />
                         </svg>
                     </button>
                 </div>
-                <div class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none hidden"
+                <div class="lg:mx-20 rounded  lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none hidden"
                     id="example-collapse-navbar">
                     <ul class="flex flex-col lg:flex-row list-none mr-auto ">
                         <li class="flex items-center">
-                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                            <a class="text-green-light py-4 px-2 lg:border-t-2   text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                Home</a>
+                                <span class="lg:mt-4 ">Home</span></a>
                         </li>
                         <li class="flex items-center">
                             <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                About Us</a>
+                                <span class="lg:mt-4">About Us</span> </a>
                         </li>
                         <li class="flex items-center">
                             <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                Blog</a>
+                                <span class="lg:mt-4">Blog</span> </a>
                         </li>
                         <li class="flex items-center">
                             <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                Gallery</a>
+                                <span class="lg:mt-4">Gallery</span> </a>
                         </li>
                     </ul>
-                    <ul class="flex flex-col lg:flex-row list-none mr-auto md:mr-0 md:items-center">
+                    <ul class="flex flex-col lg:flex-row list-none mr-auto md:mr-0 lg:items-center">
                         <li class="flex items-center">
                             <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                shedule</a>
+                                <span class="lg:mt-4">shedule</span> </a>
                         </li>
                         <li class="flex items-center">
                             <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                Videos</a>
+                                <span class="lg:mt-4">Videos</span> </a>
                         </li>
                         <li class="flex items-center">
                             <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                Class</a>
+                                <span class="lg:mt-4">Class</span> </a>
                         </li>
                         <li class="flex items-center">
                             <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                 href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
-                                Contact Us</a>
+                                <span class="lg:mt-4"> Contact Us</span> </a>
                         </li>
                     </ul>
                 </div>
             </div>
 
         </nav>
-
         <main class="">
-
             <div class=" grid px-2 md:px-0 justify-items-center container mx-auto -mt-96  ">
                 <div class="flex-shrink-0 h-25 w-25 grid  mt-3 justify-items-center">
                     <img class="md:h-20 md:w-20 h-12 w-12 rounded-full"
@@ -90,13 +89,15 @@
                     class="relative  w-full align-middle  border-4  border-green-light rounded-md mt-6 overflow-hidden">
                     <img src="https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA="
                         class="object-cover w-full h-full" />
-                    <div class="absolute font-semibold w-full top-1/4  text-black text-2xl text-center  ">
+                    <div class="absolute font-semibold w-full top-1/4  text-black text-2xl lg:text-4xl text-center  ">
                         Your Mind and Soul is Beautiful
                     </div>
-                    <div class="absolute font-semibold w-full mt-12 top-1/4  text-white text-2xl text-center  ">Witness
+                    <div
+                        class="absolute font-semibold w-full mt-16 top-1/4  text-white text-2xl lg:text-4xl text-center  ">
+                        Witness
                         the
                         Ethereal Beauty With<div
-                            class="absolute font-semibold w-full mt-5 top-1/4  text-white text-2xl text-center  ">
+                            class="absolute font-semibold w-full mt-6 top-1/4  text-white text-2xl lg:text-4xl text-center  ">
                             Lachit
                             Yoga Kendra
                         </div>
@@ -390,7 +391,7 @@
         </div>
         <!-- Gallery End-->
         <!-- Events start -->
-        <div class="grid justify-items-center container mx-auto  mt-8">
+        <div class="grid justify-items-center container mx-auto  mt-8 ">
             <div class="flex-shrink-0 h-25 w-25 grid  mt-3 justify-items-center">
                 <h2 class="font-semibold xl:text-xl text-sm text-black">Events</h2>
             </div>
@@ -407,7 +408,7 @@
                 </div>
             </div>
             <div class="grid px-3 grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-2  justify-items-between w-full mt-16">
-                <div class="relative   w-full mb-6 shadow rounded-sm">
+                <div class="relative bg-white  w-full mb-6 shadow rounded-sm">
                     <img src="https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA="
                         class="w-full align-middle rounded">
                     <div class="relative  bg-mainColor-yellow pb-2 pt-4 mb-4">
@@ -431,7 +432,7 @@
                         Awarness
                     </p>
                 </div>
-                <div class="relative   w-full mb-6 shadow rounded-sm">
+                <div class="relative bg-white w-full mb-6 shadow rounded-sm">
                     <img src="https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA="
                         class="w-full align-middle rounded">
                     <div class="relative  bg-mainColor-yellow pb-2 pt-4 mb-4">
@@ -492,8 +493,226 @@
                 </div>
             </div>
         </div>
+        <!-- Events End -->
+        <!-- Founder Start -->
+        <div class="grid justify-items-center container mx-auto  mt-8 ">
+            <div class="flex-shrink-0 h-25 w-25 grid  mt-3 justify-items-center">
+                <h2 class="font-semibold xl:text-xl text-sm text-black">Founder</h2>
+            </div>
+            <div class="container w-32 md:w-60 mx-auto">
+                <hr class="my-2 border-dashed border-blueGray-300">
+                <hr class=" border-solid border-blueGray-300">
+            </div>
+            <div class="  grid justify-items-center container mx-auto  mt-4">
+                <div class=" h-25 w-25 grid  mt-3 justify-items-center">
+                    <h2 class="text-md text-black mx-5 md:mx-32 text-center">We at KRIYA provide various services to the
+                        nature of the clients. Wish how you would like to spend the time here
+                        we can talk and come to a conclusion.
+                    </h2>
+                </div>
+            </div>
+            <div class="grid justify-items-center container mx-auto  ">
+                <div class="grid px-3 grid-cols-1 gap-4 lg:grid-cols-2  justify-items-between w-full mt-8">
+                    <div>
+                        <div class="relative w-full mb-6 shadow rounded-sm">
+                            <img src="https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA="
+                                class="w-full align-middle rounded">
+                        </div>
+                    </div>
+                    <div class="w-full  px-12 ml-auto mr-auto  ">
+                        <p class="text-lg font-light leading-relaxed mb-4 text-blueGray-600">
+                            <span class="text-2xl font-semibold">Ramkrishna Ghosh </span>founder of Lachit Yoga Kendra
+                            (LYK)
+                            brings years of experience to his teaching
+                            of Yoga, Specializing in Yoga therapy for people with chronic diseases. His mission is to
+                            help
+                            people realize their full human potential and become the author of their lives, physically,
+                            emotionally and spritually.He has been teaching people the art of yoga since the past 20
+                            years.
+                            He conducts Yogatraining sessions for groups and individuals. He is a post graduate in
+                            Economics. He got Yoga certificates from the institutes of Swami Vivekananda Yoga
+                            Anusandhana
+                            Samsthana
+                            (S-vyasa) a Yoga University in Bengalore is recognised by the University Grants Commission,
+                            Government of India, Yoga Vidya Dham,Nasik Maharastra, Umachal Yoga Ashram, Guwahati, Assam,
+                            Patanjali Yog Pith (Ramdev) Haridwar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid justify-items-center container ">
+                <div class="grid px-3 grid-cols-1 gap-4 lg:grid-cols-2  justify-items-between w-full mt-8">
+
+                    <div class="grid grid-rows-1 gap-1 ">
+                        <div>
+                            <div class="relative w-full  h-full mb-6 shadow rounded-sm">
+                                <iframe class="w-full h-full  align-middle rounded"
+                                    src="https://www.youtube.com/embed/xAyprfNKZBk" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div>
+                                <div class="relative w-full mb-6 shadow rounded-sm">
+                                    <iframe class="w-full align-middle rounded"
+                                        src="https://www.youtube.com/embed/xAyprfNKZBk" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="relative w-full mb-6 shadow rounded-sm">
+                                    <iframe class="w-full align-middle rounded"
+                                        src="https://www.youtube.com/embed/xAyprfNKZBk" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="relative w-full mb-6 shadow rounded-sm">
+                                    <iframe class="w-full align-middle rounded"
+                                        src="https://www.youtube.com/embed/xAyprfNKZBk" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full  px-12   ml-auto mr-auto  ">
+                        <p class="text-lg font-light leading-relaxed mb-4 text-blueGray-600">
+                            <span class="text-4xl font-semibold">Make your way to
+                                complete health
+                            </span>
+                        </p>
+                        <p>founder of Lachit Yoga Kendra (LYK)
+                            brings years of experience to his teaching
+                            of Yoga, Specializing in Yoga therapy for people with chronic diseases. His mission is to
+                            help
+                            people realize their full human potential and become the author of their lives, physically,
+                            emotionally and spritually.He has been teaching people the art of yoga since the past 20
+                            years.
+                            He conducts Yogatraining sessions for groups and individuals. He is a post graduate in
+                            Economics. He got Yoga certificates from the institutes of Swami Vivekananda Yoga
+                            Anusandhana
+                            Samsthana
+                            (S-vyasa) a Yoga University in Bengalore is recognised by the University Grants Commission,
+                            Government of India, Yoga Vidya Dham,Nasik Maharastra, Umachal Yoga Ashram, Guwahati, Assam,
+                            Patanjali Yog Pith (Ramdev) Haridwar.</p>
+                        <div class="grid justify-items-start mt-3">
+                            <a href="#!" target="_blank"
+                                class="text-black bg-green-light rounded-md px-4 py-3 mr-1 mb-1 uppercase text-sm ">
+                                View All Videos
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!-- Founder End -->
+
+        <!-- About Lachit Yoga Kendra Start -->
+        <div class="grid justify-items-center container mx-auto px-2 md:px-0 ">
+            <div class="flex-shrink-0 h-25 w-25 grid   mt-3 justify-items-center">
+                <h2 class="font-semibold xl:text-xl text-sm text-black">About Lachit Yoga Kendra</h2>
+            </div>
+            <div class="container w-32 md:w-60 mx-auto">
+                <hr class="my-2 border-dashed border-blueGray-300">
+                <hr class=" border-solid border-blueGray-300">
+            </div>
+            <div class="  grid justify-items-center container mx-auto  mt-4">
+                <div class=" h-25 w-25 grid  mt-3 justify-items-center">
+                    <h2 class="text-md text-black mx-5 md:mx-32 text-center">We at KRIYA provide various services to the
+                        nature of the clients. Wish how you would like to spend the time here
+                        we can talk and come to a conclusion.
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <!-- About Lachit Yoga Kendra End -->
+
+
+        <!-- Footer start -->
+        <div class="container mx-auto mt-16 bg-green-light p-2 py-6  rounded ">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-1">
+                <div class="grid grid-cols-3 ml-auto mr-auto   gap-1">
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                </div>
+                <div class="flex-shrink-0 col-span-2 h-25 w-25 grid  mt-3 grid justify-items-center">
+                    <img class="md:h-20 md:w-20 h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                        alt="">
+                    <h2 class="font-semibold text-xl text-black"> LACHIT YOGA KENDRA</h2>
+                    <div class=" h-25 w-25 grid  mt-3  ">
+                        <h2 class="text-md text-black mx-5 md:mx-32 text-center">Ramkrishna Ghosh is simply dummy text
+                            of
+                            the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since
+                            the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. It was popularised</h2>
+                    </div>
+                </div>
+                <div class="ml-auto mr-auto ">
+                    <ul class="my-4">
+                        <li>
+                            <button class="py-4 inline-flex items-center font-medium rounded px-4 py-2 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 8l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+                                </svg> <span class="ml-4">+91 7002641482</span>
+                            </button>
+
+                        </li>
+                        <li>
+                            <button class="py-4 inline-flex items-center font-medium rounded px-4 py-2 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg><span class="ml-4">ramkrishna@gmail.com</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="py-4 inline-flex items-center font-medium rounded px-4 py-2 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg><span class="ml-4">
+                                    Dakshin Golaghatia Basti <br>
+                                    Hojai, Assam - 782435
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=" bg-mainColor-grey mr-auto ml-auto px-5 md:px-0 z-10">
+            <div class="mt-6  flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="mt-4 mb-4 text-sm text-blueGray-500 font-semibold py-1">
+                        Design and Developed By: Mithun Sarkar
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Events End -->
+
+    <!-- Footer End -->
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
