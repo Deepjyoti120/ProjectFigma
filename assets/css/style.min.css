@@ -13833,6 +13833,10 @@ video {
   background-image: url('https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA=');
 }
 
+.bg-mainImgBg {
+  background-image: url('../img/bg.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -32457,6 +32461,10 @@ video {
     background-image: url('https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA=');
   }
 
+  .sm\:bg-mainImgBg {
+    background-image: url('../img/bg.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -51015,6 +51023,10 @@ video {
 
   .md\:bg-mainImg {
     background-image: url('https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA=');
+  }
+
+  .md\:bg-mainImgBg {
+    background-image: url('../img/bg.png');
   }
 
   .md\:from-transparent {
@@ -69577,6 +69589,10 @@ video {
     background-image: url('https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA=');
   }
 
+  .lg\:bg-mainImgBg {
+    background-image: url('../img/bg.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -88137,6 +88153,10 @@ video {
     background-image: url('https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA=');
   }
 
+  .xl\:bg-mainImgBg {
+    background-image: url('../img/bg.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -106695,6 +106715,10 @@ video {
 
   .\32xl\:bg-mainImg {
     background-image: url('https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&k=20&m=519265984&s=170667a&w=0&h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA=');
+  }
+
+  .\32xl\:bg-mainImgBg {
+    background-image: url('../img/bg.png');
   }
 
   .\32xl\:from-transparent {
