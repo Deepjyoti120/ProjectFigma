@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.min.css" rel="stylesheet">
+    <title>Blog Posts</title>
+</head>
+
+<body class="">
+    <div class="bg-mainBg-default h-96"> </div>
+    <!-- <div class="bg-mainImgBg"> -->
+    <div class="">
+        <nav
+            class="top-0 lg:text-white absolute z-50 w-full flex flex-wrap items-center justify-between  navbar-expand-lg">
+            <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+                <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+                    <button
+                        class="mt-4 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                        type="button" onclick="toggleNavbar('example-collapse-navbar')">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="white">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="lg:mx-20 rounded  lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none hidden"
+                    id="example-collapse-navbar">
+                    <ul class="flex flex-col lg:flex-row list-none mr-auto ">
+                        <li class="flex items-center">
+                            <a class="text-green-light py-4 px-2 lg:border-t-2   text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4 ">Home</span></a>
+                        </li>
+                        <li class="flex items-center">
+                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4">About Us</span> </a>
+                        </li>
+                        <li class="flex items-center">
+                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4">Blog</span> </a>
+                        </li>
+                        <li class="flex items-center">
+                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4">Gallery</span> </a>
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col lg:flex-row list-none mr-auto md:mr-0 lg:items-center">
+                        <li class="flex items-center">
+                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4">shedule</span> </a>
+                        </li>
+                        <li class="flex items-center">
+                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4">Videos</span> </a>
+                        </li>
+                        <li class="flex items-center">
+                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4">Class</span> </a>
+                        </li>
+                        <li class="flex items-center">
+                            <a class="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                href="#!"><i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i>
+                                <span class="lg:mt-4"> Contact Us</span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <main class="">
+            <div class=" grid px-2 md:px-0 justify-items-center container mx-auto -mt-96  ">
+                <div class="flex-shrink-0 h-25 w-25 grid  mt-3 justify-items-center">
+                    <img class="md:h-20 md:w-20 h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                        alt="">
+                    <h2 class="font-semibold text-xl text-white">LACHIT YOGA KENDRA</h2>
+                </div>
+                <div
+                    class="relative bg-blogBg w-full align-middle  border-4  border-green-light rounded-md mt-6 overflow-hidden">
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-0 px-14 pt-8 mb-4 md:mb-0">
+                        <div class="text-3xl mb-2 font-semibold leading-normal">
+                            Practising Yoga On The Sea Shore Is A Good Method
+                        </div>
+                        <nav class="bg-grey-light grid justify-items-end rounded font-sans w-full">
+                            <ol class="list-reset flex text-grey-dark">
+                                <li><a href="#" class="font-bold">Home</a></li>
+                                <li><span class="mx-2">></span></li>
+                                <li><a href="#" class="font-bold">Library</a></li>
+                                <li><span class="mx-2">></span></li>
+                                <li>Practising Yoga On The Sea Shore Is A Good Method</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <hr class=" border-solid border-blueGray-300">
+                    <!-- /// start  -->
+                    <div class="p-6 lg:p-20">
+                        <div class="relative  bg-mainColor-yellow   w-full mb-6 shadow-2xl rounded-sm">
+                            <img src="https://media.istockphoto.com/photos/female-gymnast-in-sports-hall-picture-id519265984?b=1&amp;k=20&amp;m=519265984&amp;s=170667a&amp;w=0&amp;h=7mucRxMtjlmsoLH5aE4gu1XiNVTf2-RMPrtMjOYlTfA="
+                                class="w-full align-middle rounded">
+                            <div class="relative pt-4 mb-4">
+                                <div class="grid grid-cols-6 gap-0 ">
+                                    <div class="bg-mainColor-grey w-20 h-20 ">
+                                        <div class="p-5">
+                                            <p class="text-middle text-center text-black">28</p>
+                                            <p class="text-middle text-center text-black">april</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-span-5">
+                                        <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                                            <div class="w-full px-4">
+                                                <div class=" pt-0">
+                                                    <h2 class="font-semibold text-xl text-blueGray-600">
+                                                        Practising yoga on the sea shore is a good
+                                                    </h2>
+                                                    <p class="mt-4 mb-4 text-md leading-relaxed text-blueGray-500">
+                                                        Mauris in
+                                                        erat
+                                                        justo.
+                                                        Nullam
+                                                        ac
+                                                        urna
+                                                        eu felis dapibus condimentum sit amet a augue.
+                                                        Sed non neque elit....
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-6 gap-0 ">
+                                    <div class=" w-20 h-20"></div>
+                                    <div class="col-span-5">
+                                        <div class="grid grid-cols-1 lg:grid-cols-2">
+                                            <div class="w-full px-4">
+                                                <div class=" pt-0">
+                                                    <p class="mt-4 mb-4 text-md leading-relaxed text-blueGray-500">
+                                                        Mauris in erat justo. Nullam ac urna eu felis dapibus
+                                                        condimentum sit amet a augue. Sed non neque elit....
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="mr-4">
+                                                <span class="text-6xl ">“</span>
+                                                At vero eos et accusamus et iusto odio dignissimos ducimus
+                                                qui
+                                                blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                                                et quas molestias provient destiny is about voles.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="relative p-4 grid justify-end ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-opacity-50 text-black " fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <!-- Footer start -->
+        <div class="container mx-auto mt-16 bg-green-light p-2 py-6  rounded ">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-1">
+                <div class="grid grid-cols-3 ml-auto mr-auto   gap-1">
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                    <div class="bg-mainColor-grey w-16 h-16 "> </div>
+                </div>
+                <div class="flex-shrink-0 col-span-2 h-25 w-25 mt-3 grid justify-items-center">
+                    <img class="md:h-20 md:w-20 h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                        alt="">
+                    <h2 class="font-semibold text-xl text-black"> LACHIT YOGA KENDRA</h2>
+                    <div class=" h-25 w-25 grid  mt-3  ">
+                        <h2 class="text-md text-black mx-5 md:mx-32 text-center">Ramkrishna Ghosh is simply dummy text
+                            of
+                            the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since
+                            the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged. It was popularised</h2>
+                    </div>
+                </div>
+                <div class="ml-auto mr-auto ">
+                    <ul class="my-4">
+                        <li>
+                            <button class="py-4 inline-flex items-center font-medium rounded px-4 py-2 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 8l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+                                </svg> <span class="ml-4">+91 7002641482</span>
+                            </button>
+
+                        </li>
+                        <li>
+                            <button class="py-4 inline-flex items-center font-medium rounded px-4 py-2 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg><span class="ml-4">ramkrishna@gmail.com</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="py-4 inline-flex items-center font-medium rounded px-4 py-2 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg><span class="ml-4">
+                                    Dakshin Golaghatia Basti <br>
+                                    Hojai, Assam - 782435
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=" bg-mainColor-grey mr-auto ml-auto px-5 md:px-0 z-10">
+            <div class="mt-6  flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="mt-4 mb-4 text-sm text-blueGray-500 font-semibold py-1">
+                        Design and Developed By: Mithun Sarkar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
