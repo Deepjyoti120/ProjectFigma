@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.min.css" rel="stylesheet">
+    <link href="./assets/css/carousel.css" rel="stylesheet">
+    <title>Sign IN</title>
+</head>
+
+<body class="bg-green-light ">
+    <div class="  h-96"> </div>
+    <div class="bg-mainImgBgf">
+        <main class="">
+            <div class=" px-2 md:px-0 container mx-auto -mt-96  ">
+                <div class="flex justify-start h-25 w-25 mt-3 ">
+                    <img class="md:h-20 md:w-20 h-12 w-12 rounded-full"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
+                        alt="">
+                    <h2 class="ml-4 my-auto  font-semibold text-sm lg:text-xl text-white">LACHIT YOGA KENDRA</h2>
+                </div>
+                <div class="relative w-full align-middle rounded-md mt-6 overflow-hidden ">
+                    <!-- /// start  -->
+                    <div class="p-6 lg:px-20">
+                        <div class="grid grid-cols-1 lg:grid-cols-6 gap-0 lg:gap-4">
+                            <div class="col-span-3 ml-auto mr-auto mx-auto my-auto ">
+                                <h1 class="text-center text-4xl font-semibold text-white">"Yoga is essentially a
+                                    practice for your
+                                    soul, working through the medium of your body"</h1>
+                            </div>
+                            <div class="col-span-3 bg-white rounded  mt-6 md:mt-0">
+                                <!-- Start Here -->
+                                <div class=" sm:mt-0">
+                                    <div class="mt-5 md:mt-0 md:col-span-2">
+                                        <form action="#" method="POST">
+                                            <div class="bg-transparent overflow-hidden sm:rounded-md">
+                                                <div class="px-4 py-5  sm:p-6">
+                                                    <div class="grid justify-items-center container mx-auto ">
+                                                        <div
+                                                            class="flex-shrink-0 h-25 w-25 grid  mt-3 justify-items-center">
+                                                            <h2 class="font-semibold xl:text-6xl text-4xl text-black">
+                                                                Sign in</h2>
+                                                        </div>
+                                                        <div
+                                                            class="  grid justify-items-center container mx-auto  mt-4">
+                                                            <div class=" h-25 w-25 grid  mt-3 justify-items-center">
+                                                                <h2
+                                                                    class="text-md text-black mx-5 md:mx-32 text-center font-semibold">
+                                                                    Hello there! Sign in and start accessing Yoga
+                                                                    Classes</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grid grid-cols-6 gap-6 mt-8">
+                                                        <div class="col-span-6 sm:col-span-6">
+                                                            <input type="text" name="email" id="email"
+                                                                autocomplete="given-name"
+                                                                class="mt-1 bg-transparent focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-sm"
+                                                                placeholder="Email*">
+                                                        </div>
+                                                        <div class="col-span-6 sm:col-span-6 relative"
+                                                            x-data="{ show: true }">
+                                                            <div x-data="{ show: true }">
+                                                                <input placeholder="Password" :type="show ? 'password' : 'text'" 
+                                                                    class="mt-1 bg-transparent focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-sm">
+                                                                <div
+                                                                    class="absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5">
+                                                                    <svg @click="show = !show"
+                                                                    :class="{'block': !show, 'hidden':show }" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                                                      </svg>
+                                                                      <svg @click="show = !show"
+                                                                    :class="{'hidden': !show, 'block':show }"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
+                                                                      </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
+                                                    <div class=" flex justify-center">
+                                                        <button type="submit"
+                                                            class="inline-flex bg-green-light justify-center py-2 px-14 border border-transparent shadow-sm text-sm rounded-md text-black bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 font-semibold">
+                                                            LOGIN
+                                                        </button>
+
+                                                    </div>
+                                                    <div class=" flex justify-center mt-4">
+                                                        <H4>Forgot Password?</H4>
+
+                                                    </div>
+                                                    <div class=" flex justify-center mt-1">
+                                                        <H4>Don't have an account? <span
+                                                                class="font-semibold">Signup</span></H4>
+
+                                                    </div>
+                                                    <div class=" flex justify-center mt-24 mb-4 font-semibold">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                                                        </svg>
+                                                        <H4 class="ml-2">BACK TO HOME PAHE </H4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.7/dist/js/splide.cjs.min.js"></script>
+</body>
+
+</html>
